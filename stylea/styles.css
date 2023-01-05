@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header{
+  background: #FFF8F3;
+  background-image: url(/images/header_bg.png) , url(/images/developer.png);
+ background-position: bottom right , bottom left;
+ background-repeat: no-repeat;
+ padding-top: 5px;
+ /* margin-left: 125px; */
+ 
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 10px 15px;
+  border: 0 solid #fd6e0a;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* header and navigation style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+  justify-content: space-between;
+}
+
+header .banner .title {
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+header .banner .name {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+header .banner .part-1 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+header .banner .part-1 .pera{
+  margin-bottom: 30px;
+}
+
+/* Main section */
+
+main{
+ height: 50vh;
+ background-color: #FFF8F3;
+ margin: 50px 150px;
+}
+
+main .about .title{
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 35px;
+ 
+}
+
+main .about .paragraph{
+  text-align: center;
+  margin: 25px 200px;
+}
+
+main .about-info-container{
+  display: flex;
+  text-align: center;
+  padding-left: 280px;
+  margin-top: 20px;
+}
+
+main .about-info-container .info-item{
+padding: 15px;
+}
+
+main .what-i-do{
+  margin-top: 200px;
+}
+
+main .what-i-do .what{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main .what-i-do .pera{
+  text-align: center;
+  
+  margin: 50px 200px;
+}
+
+.what-i-do .box{
+  display: flex;
+  margin-left: 100px;
+}
+
+.what-i-do .box .box-item{
+  background: #FFFFFF;;
+  margin: 0 27px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do .box .box-item h3 , p , img{
+  margin: 10px 10px;
+}
