@@ -145,3 +145,116 @@ main .what-i-do .pera{
 .what-i-do .box .box-item h3 , p , img{
   margin: 10px 10px;
 }
+
+/* My Resume */
+
+.resume .my-resume{
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .my-resume .edu{
+  margin-right: 10px;
+  margin-left: 70px;
+ 
+}
+
+.resume .my-resume .edu .sub-edu{
+  margin: 50px 0;
+}
+
+.resume .my-resume .expere{
+  margin-left: 10px;
+  margin-right: 70px;
+}
+
+.resume .my-resume .expere .sub-expere{
+  margin: 50px 0;
+}
+
+.resume .h-3{
+  text-align: center;
+  margin: 100px 0;
+  font-weight: 900;
+  font-size: 35px;
+  color: #181818;
+  
+}
+
+.resume .h-2{
+  margin-bottom: 30px;
+  color: #474747;
+  font-weight: 700;
+font-size: 30px;
+}
+
+.resume .h3-title{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 700;
+font-size: 25px;
+}
+
+.resume .my-resume .resu-pera{
+    margin: 15px 100px 15px 0;
+}
+
+.resume .my-resume .h-6{
+  color: #757575;
+  font-weight: 600;
+font-size: 15px;
+}
+
+.resume .this-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.footer .last-div{
+  display: flex;
+ 
+}
+
+
+
+
+
+.footer{
+ 
+  background-color: #FFF8F3;
+  width: max-content;
+} 
+
+.footer .last-div{
+  /* background-color: #FFF8F3; */
+  margin-top: 100px;
+  /* width: 100%; */
+
+}
+.footer h3{
+  text-align: start;
+}
+
+.footer .last-div .contact{
+  margin-left: 10px;
+  margin-right: 250px;
+  margin-top: 40px;
+}
+
+
+.footer .last-div .message .input input{
+ width: 350px;
+ height: 50px;
+ margin: 15px;
+ /* background-color: #ebe5e1; */
+}
+
+.footer .last-div .message textarea{
+  margin: 15px;
+  /* background-color: #ebe5e1; */
+}
+
+.footer .last-div .last-btn{
+margin-left: 15px;
+}
+
